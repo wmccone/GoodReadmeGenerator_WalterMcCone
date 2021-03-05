@@ -56,7 +56,13 @@ const questions = () => {
         {
             type: 'input',
             name: 'github',
-            message: 'What is your Github user name (Please include a link)?',
+            message: 'What is your Github user name?',
+        },
+
+        {
+            type: 'input',
+            name: 'githublink',
+            message: 'What is your Github profile URL?',
         },
         //Prompts the user for their email and contact information
         {

@@ -80,12 +80,12 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[License](#license)
-  -[Credits](#credits)
-  -[Tests](#tests)
-  -[Contact Information](#contact)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributors](#contributors)
+  * [Questions](#questions?)
+  * [Tests](#tests)
 
   ## Installation
 
@@ -99,17 +99,19 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
 
-  ## Credits
+  ## Contributors
 
   ${data.contributors}
+
+  ## Questions?
+  Follow me on Github
+  [${data.github}](${data.githublink}) 
+  or 
+  email me at ${data.email}
 
   ## Tests
 
   ${data.tests}
-
-  ## Contact
-
-  ${data.github} or ${data.email}
 
 `;
 }
